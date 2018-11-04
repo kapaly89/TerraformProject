@@ -1,7 +1,5 @@
 variable "region" {}
-
 variable "appname" {}
-
 variable "amis" {
   type = "map"
 
@@ -14,5 +12,5 @@ variable "amis" {
 variable "Environment" {}
 
 variable "Created_by" {
-  default = "asel"
+  default = "Asel"
 }
